@@ -5,9 +5,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jhoan Gracia</title>
+  <!-- Assets from IONIC framework -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+  <link rel="stylesheet" href="./src/assets/main.css">
 </head>
 <body>
-  Hola mundo
+  <ion-page>
+    <ion-content>
+      <ion-grid  class="ion-padding">
+        <ion-row>
+          <ion-col size="3" offset="3">
+            <h1>Leeme en Medium</h1>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-grid id="blogs-content">
+      </ion-grid>
+
+      <ion-grid id="purga-content">
+      </ion-grid>
+    </ion-content>
+  </ion-page>
+  
 </body>
 <script src="./src/assets/main.js"></script>
 </html>
