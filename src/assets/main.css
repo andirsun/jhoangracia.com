@@ -1,0 +1,10 @@
+.first-post {
+  height:280px;
+  width:100%;
+  object-fit:cover;
+}
+.small-posts {
+  height:200px;
+  width:100%;
+  object-fit:cover;
+}
