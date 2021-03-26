@@ -1,3 +1,62 @@
+.bg img {
+  width: 110vw;
+  height: 110vh;
+  filter: brightness(0.7);
+}
+.deivid img {
+  width: 400px;
+  position: relative;
+  transform: translate(170%, 40%);
+  z-index: 1;
+  
+}
+.text h1 {
+  font-size: 100px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 35vh;
+  left: 40vw;
+}
+/* .bg {
+  background-image: url(./images/main.JPG);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.podcast {
+  background-image: url(./images/background.JPG);
+  /* height: 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.medium-title {
+  font-family : 'Inter', sans-serif;
+  font-weight : 700;
+  font-size : 50px;
+  color : #2B2F34;
+}
+.logo {
+  width: 150px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-text {
+  font-family : 'Inter', sans-serif;
+  font-weight : 400;
+  font-size : 30px;
+  color :white;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .first-post {
   height:280px;
   width:100%;
