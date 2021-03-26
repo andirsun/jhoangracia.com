@@ -1,6 +1,4 @@
 
-var scene = document.getElementById('scene');
-var parallaxInstance = new Parallax(scene);
 const getBlogPosts = () => {
   fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@jhoangracia')
   .then(response => response.json())
@@ -10,7 +8,7 @@ const getBlogPosts = () => {
       if (index==0) {
         postsHtml+= `
           <ion-row>
-            <ion-col offset="3" size="6">
+            <ion-col offset="3" size="6" offset-bg="0">
               <ion-card class="post-card" mode="ios" href=${post.link}>
                 <img class="first-post" src=${post.thumbnail} >
                 <ion-card-header>
