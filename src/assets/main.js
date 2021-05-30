@@ -7,8 +7,8 @@ const getBlogs = () => {
     data.items?.map ((post, index) => {
       if (index==0) {
         postsHtml += `
-					<div class="transform transition duration-500 hover:scale-110 m-10 max-w-md mx-auto bg-white rounded-xl shadow-lg overflow-hidden md:max-w-3xl">
-						<div class="md:flex p-4">
+					<div class="transform transition duration-500 hover:scale-110 m-10 p-4 max-w-md mx-auto bg-white rounded-xl shadow-lg overflow-hidden md:max-w-3xl md:p-0">
+						<div class="md:flex">
 							<div class="md:flex-shrink-0">
 								<img class="h-80 w-full object-cover md:h-full md:w-80 " src=${post.thumbnail} alt="postimg">
 							</div>
