@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
   <link rel="stylesheet" href="./src/assets/main.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+	<!-- Tailwind css -->
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
 </head>
 <body>
   <ion-page>
@@ -28,16 +31,11 @@
         <img class="logo" src="./src/assets/images/logo-white.svg"  >
       </div>
       
-      <div>
-        <ion-grid  class="ion-padding">
-          <ion-row class="ion-justify-content-center ">
-            <ion-col size="auto" class="ion-no-margin">
-              <p class="medium-title">Mi Blog</p>
-            </ion-col>
-          </ion-row>
-          <div id="blogs-content"></div>
-        </ion-grid>
-      </div>
+      <section>
+				<h2 class="flex justify-center medium-title text-6xl mt-10 mb-5">Mi Blog</h2>
+				<div id="blogs-content"></div>
+				
+      </section>
       
       <div class="second-background"></div>
         
@@ -52,8 +50,17 @@
         </ion-grid>
       </div> 
     </ion-content>
-  </ion-page>
-  
+		<!-- <ion-footer>
+			<div class="flex flex-wrap items-center md:justify-between justify-center">
+				<div class="w-full md:w-4/12 px-4 mx-auto text-center">
+					<div class="text-sm text-gray-600 font-semibold py-1">
+						2021 Made with <b style="color: #36d28f">❤️</b> in COLOMBIA
+					</div>
+				</div>
+			</div>
+
+		</ion-footer>
+  </ion-page> -->
 </body>
 <script src="./src/assets/main.js"></script>
 </html>

@@ -15,7 +15,7 @@
   transform: translate(-50%, -50%);
 }
 .second-background {
-  background-image: url(./images/background.JPG);
+  background-image: url(./images/second-background.jpeg);
   height: 70vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,7 +25,6 @@
 .medium-title {
   font-family : 'Inter', sans-serif;
   font-weight : 700;
-  font-size : 50px;
   color : #2B2F34;
 }
 
@@ -39,13 +38,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.first-post {
-  height:280px;
+.first-post-img {
+  height:400px;
   width:100%;
   object-fit:cover;
 }
 .small-posts {
   height:200px;
   width:100%;
-  object-fit:cover;
+	object-fit:cover;
 }
