@@ -57,17 +57,28 @@ const Home: NextPage = () => {
 
       <div className="flex h-screen bg-fixed opacity-90 bg-back" >
         <div className="lg:flex m-auto w-full">
-          <div className="flex self-center w-full lg:w-1/2">
-            <img className="rounded-full w-3/5 lg:w-6/12 mx-auto"
+          
+          <div className="self-center w-full lg:w-1/2 lg:space-y-10">
+            <img className="rounded-full w-1/5 lg:w-6/12 mx-auto"
               src="/deivid7.png"
               alt="Jhoan Gracia"
             />
+
+            <iframe className="mx-auto px-4 w-full lg:w-8/12"
+              src="https://open.spotify.com/embed/show/1yVqBBUrbz9mAoucDo1MHe?utm_source=generator&theme=0"
+              height={200}
+              allowFullScreen
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            />
           </div>
 
+          {/* <div className="flex self-center w-full lg:w-1/2">
+          </div> */}
+
           <div className="w-full lg:w-1/2 ">	
-            <div className="p-4 flex flex-wrap">
+            <div className="px-4 flex flex-wrap">
               <div className="lg:w-8/12">
-                <h1 className="text-gray-800 font-extrabold text-4xl lg:text-6xl leading-none tracking-tighter">
+                <h1 className="text-gray-800 font-extrabold text-3xl lg:text-6xl leading-none tracking-tighter">
                   Hola, soy Jhoan 🇨🇴🇺🇸
                 </h1>
               </div>
@@ -81,7 +92,7 @@ const Home: NextPage = () => {
               </div>
             </div>
             <div className="ml-4">
-              <h2 className="text-gray-800 text-3xl font-bold ">Mi Blog</h2>
+              <h2 className="text-gray-800 text-xl lg:text-3xl font-bold ">Mi Blog</h2>
               <Swiper
                 className="h-60 lg:h-72 mt-2"
                 navigation={true}
